@@ -1,6 +1,5 @@
 // ============================================================
-// BTC Private Key Generator & Balance Checker - Rust Edition
-// For AUTHORIZED security testing only.
+// BTC Private Key Generator & Balance Checker - Rust 
 // ============================================================
 
 use chrono::Local;
@@ -225,8 +224,7 @@ fn progress_reporter(stats: &Stats, start: Instant) {
 
 fn main() {
     println!("╔══════════════════════════════════════════════════╗");
-    println!("║   BTC Private Key Checker - Rust Edition        ║");
-    println!("║   For AUTHORIZED Security Testing Only          ║");
+    println!("║   BTC Private Key Checker - Rust                 ║");
     println!("╚══════════════════════════════════════════════════╝");
     println!();
     
