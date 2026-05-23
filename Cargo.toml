@@ -1,0 +1,30 @@
+[package]
+name = "btc_brute"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Kriptografi secp256k1
+secp256k1 = { version = "0.28", features = ["global-context", "rand-std"] }
+
+# Base58 encoding
+bs58 = "0.5"
+
+# Hashing
+ripemd = "0.1"
+sha2 = "0.10"
+
+# HTTP client (blocking mode)
+reqwest = { version = "0.11", features = ["json", "blocking"] }
+
+# Multi-threading
+rayon = "1.8"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Utility
+hex = "0.4"
+rand = "0.8"
+chrono = "0.4"
